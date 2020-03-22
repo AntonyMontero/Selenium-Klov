@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/Documents/Testing-Selenium-V2">
+        <parameter name="platform" value="Windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Test.PrimerTest">
+                <methods>
+                    <include name="TestUno"/>
+                    <include name="TestDos"/>
+                </methods>
+            </class>
+            <class name="Test.SegundoTest">
+                <methods>
+                    <include name="TestTres"/>
+                </methods>
+            </class>
+            <class name="Test.TercerTest">
+                <methods>
+                    <include name="TestCuatro"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
